@@ -1,0 +1,8 @@
+.input{
+  border: 1px solid orange;
+  border-radius: 3px;
+}
+button{
+  background: orange;
+  border:none;
+}

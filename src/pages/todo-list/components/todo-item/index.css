@@ -1,0 +1,9 @@
+.todo-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.completed-txt {
+  text-decoration: line-through;
+  color: green;
+}

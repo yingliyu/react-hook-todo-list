@@ -1,0 +1,47 @@
+@import "~antd/dist/antd.css";
+.todo-list-wrapper {
+  width: 800px;
+  margin: 50px auto;
+}
+h2 {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.input-wrapper {
+  width: 700px;
+  display: inline-block;
+}
+.completed {
+  text-decoration: line-through;
+}
+.operate-btn {
+  display: none;
+  padding-left: 30px;
+}
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+ul li:hover .operate-btn {
+  display: inline-block;
+  cursor: pointer;
+}
+li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+ul li:hover {
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.del-btn {
+  color: red;
+}
