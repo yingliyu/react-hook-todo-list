@@ -2,7 +2,7 @@ import { fromJS } from "immutable";
 import { todoListActionTypes } from "@/store/action-types";
 
 const defaultState = fromJS({
-  todoInput: "test",
+  todoInput: "",
   lists: [],
   isLoading: false,
   errMsg: "",

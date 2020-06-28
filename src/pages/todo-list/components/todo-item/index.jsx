@@ -4,8 +4,8 @@ import "./index.css";
 
 export default function TodoItem(props) {
   const { item, deleteTask, completeTask } = props;
-  const [modalVisible, setVisible] = useState(false);
-  const [id, setId] = useState(0);
+  const [modalVisible, setVisible] = useState(false); // 删除modal是否显示
+  const [id, setId] = useState(0); // 当前操作任务的id
   const modalHandleOk = (id) => {
     deleteTask(id);
     setVisible(!modalVisible);
